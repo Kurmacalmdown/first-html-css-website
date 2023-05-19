@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div {
+  width: 50%;
+}
+nav .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .hey {
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+
+a:hover {
+  background-image: linear-gradient(90deg, green, black);
+  
+  border-radius: 50px;
+  color: white;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+section {
+  background-image: url('https://wallpapers.com/images/featured/uj80yqnb8r66mqbo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section div h1 {
+  font-size: 15rem;
+  text-align: center;
+  background: #25cc0f;
+  background: linear-gradient(to bottom right, #25cc0f 0%, #120202 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3ce526;
+    text-align: center;
+}
+
+footer img {
+    object-fit: cover;
+    height: 100%;
+}
+footer div {
+    width: calc(100% / 3);
+}
+
